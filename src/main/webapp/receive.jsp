@@ -15,7 +15,8 @@
 结果：<%=bean %>
 <%
 request.setAttribute("bean", bean);
-request.getRequestDispatcher("getresult.action").forward(request, response);
+//request.getRequestDispatcher("getresult.action").forward(request, response);
 %>
+<jsp:forward page="getresult.action"  />
 </body>
 </html>

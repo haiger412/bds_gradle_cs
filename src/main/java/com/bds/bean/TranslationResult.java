@@ -1,4 +1,4 @@
-package com.bds.service;
+package com.bds.bean;
 
 import java.util.List;
 
@@ -30,7 +30,7 @@ public class TranslationResult {
 	public String toString() {
 		return "TranslationResult [from=" + from + ", to=" + to + ", trans_result=" + trans_result + "]";
 	}
-	public class RS{
+	public static class RS{
 		private String src;
 		private String dst;
 		public String getSrc() {
